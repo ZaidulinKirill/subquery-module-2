@@ -1,0 +1,5 @@
+type Account @entity {
+  id: ID!
+  account: String
+  balance: BigInt
+}
